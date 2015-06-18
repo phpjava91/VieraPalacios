@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: 'kavoon';
+    src: url('font/kavoon-regular-webfont.eot');
+    src: url('font/kavoon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/kavoon-regular-webfont.woff2') format('woff2'),
+         url('font/kavoon-regular-webfont.woff') format('woff'),
+         url('font/kavoon-regular-webfont.ttf') format('truetype'),
+         url('font/kavoon-regular-webfont.svg#kavoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'amadeus';
+    src: url('font/amadeus-webfont.eot');
+    src: url('font/amadeus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/amadeus-webfont.woff2') format('woff2'),
+         url('font/amadeus-webfont.woff') format('woff'),
+         url('font/amadeus-webfont.ttf') format('truetype'),
+         url('font/amadeus-webfont.svg#amadeus_regularamadeusRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html{
+font-size:1em;
+}
+
+body{
+background:#DFD485;
+}
+
+ header{
+  padding:.5em 0;
+ }
+.header h1{
+  color:#98762C;
+  text-align:center;
+  font-size:2em;
+  font-family:'kavoon';
+  font-weight:bold;
+}
+
+.header a{
+  float:right;
+  margin-right:10%;
+  margin-bottom:10%;
+  color:#848C39;
+  font-weight:bold;
+}
+
+
+.header-logo figure{
+	width:15%;
+	margin:auto;
+	padding-bottom:.5em;
+}
+
+.header-logo figure:before{
+    content:"CUP CAKES";
+    color:#98762C;
+    font-size:4em;
+    font-family:'amadeus';  
+    margin-left:-165%;
+    margin-bottom:20%;
+    font-weight:80;
+}
+
+.header-title{
+  margin-left:30%;
+  color:#98762C;
+  font-weight:bold;
+}
+
+/* navegador--------------------------------*/
+
+.nav-list{
+  list-style:none;
+  margin-left:20%;	
+  padding:S0;
+
+}
+.nav-list img{
+	width:30%;
+	height:110px;
+	margin-left:-6%;
+}
+.nav-list li{
+ display:inline-block;
+ margin-left:2.8em;
+  color:#848C39;
+}
+.nav-list li a{
+ text-decoration:none;
+}
+
+/* template----------------------------------------*/
+
+.principal-template img{
+ width:70%;
+ height:40vh;
+ margin-left:15%;
+}
+
+.principal-link {
+ text-decoration:none:;
+ position:absolute;
+ top:0;
+ right:70%;
+ top:80%;
+
+}
+.principal-title{
+ text-decoration:none:;
+ position:absolute;
+ top:0;
+ left:76%;
+ background:#BEC1BA;
+ padding:.5em 1.5em;
+ padding-right:4em;
+ top:80%;
+}
+.principal-link a{
+ margin-left:.4em;
+ font-size:1.4em;
+ font-weight:bold	
+}
+
+.principal-template{
+ position:relative;
+}
+
+.corte{
+width:66%;
+height:12px;
+margin-left:17%;
+}
+
+
+
