@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
 	 <link rel="stylesheet" href="style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>	
 	<header class="container-fluid">  <!--Nos crea filas-->
@@ -13,7 +15,7 @@
        <h1>
        	 PERFECT EXPRIENCIES WITH      	 
        </h1>      
-       <a href="#">
+       <a href="index1.html">
        	ABOUT ME
        </a>
        </div>
@@ -22,7 +24,7 @@
           	<img src="images/logo.gif" />
           </figure>
        </div>
-       <span class="header-title">A Design By YunaVP</span>       
+       <span class="header-title"><a href="#" class="icon-quill"></a>A Design By YunaVP</span>      
     </header>
  </a>
 
@@ -30,25 +32,24 @@
      <nav id="nav" class="container-fluid">
       <ul class="nav-list">
       	    <img src="images/nav.gif" alt="">
-      	 	 <a  href="#"><li>Presentacion</li> </a>
-      	 	 <a href="#"><li>Galeria</li> </a>
-      	 	 <a href="#"><li>Carte</li> </a>
-      	 	 <a href="#"><li>Voz</li> </a>
-      	 	 <a href="#"><li>Actualize</li> </a>
-      	 	 <a href="#"><li>Contact</li> </a>
+      	 	 <a  href="#Presentacion"><li>Presentacion</li> </a> <!--anclas-->
+      	 	 <a href="#Galeria"><li>Galeria</li> </a>
+      	 	 <a href="#Tarifa"><li>Tarifa</li> </a>
+      	 	 <a href="#Actualidad"><li>Actualidad</li> </a>
+      	 	 <a href="#Contactame"><li>Contactame</li></a>
       	 </ul>	 
     </nav>
 
-     <main  class="container-fluid">
+     <main>
     	 <figure class="principal-template">
-          <img src="images/template-logo.jpg" alt="">
+          <img src="images/imagen1.jpg" alt="">
     	 <div class="principal-link">
-           <a href="#">1</a>
-           <a href="#">2</a>
-           <a href="#">3</a>
-           <a href="#">4</a>
-           <a href="#">5</a>
-           <a href="#">6</a>
+           <a href="#" class="icon-beer"></a>  <!--iconos-->
+           <a href="#" class="icon-file-binary"></a>
+           <a href="#" class="icon-gift"></a>
+           <a href="#" class="icon-key"></a>
+           <a href="#" class="icon-lock"></a>
+           <a href="#" class="icon-octoface"></a>
     	 </div>
          <div class="principal-title">
            <a href="#">Yuna</a> 	
@@ -57,50 +58,133 @@
        <img  class="corte" src="images/corte.jpg">
     </main>
 
-    <section id="section" class="container row">
 
-    <article class="col-md-9">	
+    <section id="section">
+
     <nav id="section-nav">
     	<ul>
-    		<li> <a href="#">enlace</a></li>
-    		<li> <a href="#">enlace</a></li>
-    		<li> <a href="#">enlace</a></li>
-    		<li> <a href="#">enlace</a></li>
+    		<li> <a href="#">Especialidad</a></li>  <!--jquery-->
+    		<li> <a href="#">Style Culinario</a></li>
+    		<li> <a href="#">Decoracion</a></li>
+    		<li> <a href="#">Recetas</a></li>
     	</ul>
     </nav>
-    <article id="section-article" class="col-md-3">
+
+    <article id="section-article">
      <figure>
-     	<img src="" alt="">
-     <figcaption>imagen1</figcaption>
+     	<img src="images/imagen7.jpg" alt="" />      
      </figure>
       <figure>
-     	<img src="" alt="">
-      <figcaption>imagen2</figcaption>
+     	<img src="images/imagen8.jpg" alt="" />       
      </figure>
       <figure>
-     	<img src="" alt="">
-     	<figcaption>imagen3</figcaption>
+     	<img src="images/imagen9.jpg" alt="" />     	 
      </figure>
-    </article>
     </article>
 
-    <aside id="aside" class="col-md-3">
+
+    <!--asideeeeeeeeeeeeee-->
+    <aside id="aside">
       <nav class="aside-nav">
        <ul>
-       	<li>enlace</li>
-       	<li>enlace</li>
-       	<li>enlace</li>
+       	 <li><a href="#">Cursos</a></li>  <!---eventos de ocultar y mostrar-->
+       	 <li><a href="#">Eventos</a></li>
        </ul>
       </nav>
     </aside>
     </section>
-    <footer class="container">
+    <section  class="article-nav--superior">
+       <article class="article-presentacion">
+         <a name="Presentacion"></a>
+         <h2>Presentacion</h2>
+         <p>
+           Como empresa productora y comercializadora, nos enfocamos en satisfacer y deleitar el paladar de los más exigentes gustos, brindándoles un producto saludable, novedoso, elaborado bajo los más altos estándares de calidad requeridos.
+           Nos identificamos por ser una empresa que trabaja con carisma con el fin de contribuir en la alimentación saludable de nuestros consumidores con un buen producto de calidad.
+           Nuestra empresa prepara una variedad de cupcakes con diversos diseños, tamaños y sabores, innovamos de acuerdo a las tendencias del mercado y a las exigencias del cliente.
+         </p>
+       </article>
+
+       <article class="article-galeria">
+         <a name="Galeria"></a>
+         <h2>Galeria</h2>
+         <figure> 
+           <h3>Cupcakes Cumpleaños niña</h3>
+          <img src="images/imagen0.jpg"/>
+        </figure>
+         <figure>
+          <h3>Cupcakes Cumpleaños niño</h3> 
+          <img src="images/imagen2.jpg"/>
+        </figure>
+         <figure>
+          <h3>Cupcake Aniversario</h3> 
+          <img src="images/imagen3.jpg"/>
+        </figure>
+         <figure>
+          <h3>Cupckae dia de la madre</h3> 
+          <img src="images/imagen4.jpg"/>
+        </figure>
+       </article>
+
+       <article class="article-tarifa">
+        <a name="Tarifa"></a>
+        <h2>Tarifa</h2>
+        <figure>
+          <img src="images/imagen6.jpg" alt="">
+        </figure>  
+
+       </article>
+       <article class="article-actualidad">
+         <a name="Actualidad"></a> 
+         <h2>Actualidad</h2>
+         <p>
+           Las CAKE POPS son la última tendencia en postres para cualquier tipo de celebración o simplemente para que disfrutes de un delicioso bocado de torta cubierto de chocolate todos los días.
+
+           Son deliciosas bolitas rellenas de suave ponqué y cubiertas de  crocante chocolate, la combinación perfecta de sabor y textura para disfrutar en varios mordiscos,  y se han convertido en la más novedosa forma de presentar la porción perfecta para sustituir la tradicional torta y dar un toque de creatividad a la decoración de cualquier celebración.
+
+           Novedosas, originales,versátiles  y divertidas… así son las CAKE POPS … porciones individuales fáciles de comer. Perfectas para las mesas de dulces, como regalo  de recuerdo para los invitados en esa fecha especial  ó como detalles para regalar en eventos corporativos
+         </p>
+          <figure>
+         <img src="images/imagen5.jpg" alt="">
+          </figure>
+       </article>
+
+       <article class="article-contactame">
+         <a name="Contactame"></a>
+         <h2>Contactame</h2>
+         <p>
+           Cómo Comprar
+           ¿Cómo puedo comprar estos productos?
+           Usted puede realizar su pedido directamente a nuestro número telefónico 2260692. Es necesario realizar su pedido con anticipación,especialmente en temporada de Primeras Comuniones y final de año,  ya que no manejamos stocks, lo cual garantiza la frescura de nuestros productos.
+          ¿Cómo puedo pagar mi pedido?
+
+          Usted puede realizar consignación o transferencia electrónica a nuestra Cuenta de Ahorros  de Bancolombia, una vez confirmado el valor de su pedido.
+          Datos de Contacto:
+          Teléfono:  2260692
+          Cel: 304-4104921
+          E-mail: ideasdulces@etb.net.co
+         Todas los  productos que aparecen en este sitio así como las Ediciones  Especiales que realizamos a través del año , son el resultado del trabajo exclusivo de IDEAS DULCES – REPOSTERIA ARTESANAL,  que hace de cada uno de ellos  un verdadero original  al ser cuidadosamente  elaboradas a mano sobre pedido.
+         Algunas especificaciones:
+         *No manejamos stocks. Todos nuestros productos se realizan sobre pedido,con lo cual garantizamos la frescura de los mismos.
+         * Nuestros productos no contienen conservantes, ni sabores artificiales en su preparación.
+         * Se recomienda su consumo inmediato o a más tardar 48 horas  después de la fecha  de su fabricación.
+         Reserve su pedido de lunes a viernes de  9:00 am  a5:00 pm a:
+         ideasdulcesinfo@gmail.com
+         Tel: 2260692 –  cel: 304-4104921
+         PEDIDOS:  (fuera de temporadas) con 48 HS DE ANTICIPACIÓN.
+         PEDIDOS EN TEMPORADA  ALTA:  con 20 DIAS DE ANTICIPACION
+         </p>
+       </article>
+    </section>
+
+
+   <!--footerrrrrrrrrrrrrr-->
+
+    <footer class="container-fluid">
     	<p>
     		Derechos Reservados
     	</p>
-    </footer>-->
-
-     <script src="js/jquery.js"></script>
+    </footer>
+     <script>inicio()</script>
      <script src="js/bootstrap.min.js"></script> 	
 </body>
 
